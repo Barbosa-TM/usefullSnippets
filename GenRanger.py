@@ -1,6 +1,6 @@
 def GenRanger(end, start=0, step=1):    
     """   
-    Similar in use to standard python range but without generating a list.
+    Similar in use to standard python range() but without generating a list.
     """
     #checking positive convergence
     if end < start and step > 0:
